@@ -23,7 +23,6 @@
         <div class="well">
            <?php
            $query = "SELECT * FROM categories LIMIT 3";
-           global $connection;
            $categories_sidebar = mysqli_query($connection, $query);
            
            ?>
